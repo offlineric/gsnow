@@ -1,11 +1,21 @@
 
-.snowflake {
-    font-size: 26px;
-    font-weight: normal;
-    color: #ffffff;
-    background-color: transparent;
+.snowflake1 {
+      font-size: 29px;
     text-shadow: 0px 0px 4px 3px rgba(0,0,0,.4);
-    padding: .5em;
+  color: #fff;
+}
+.snowflake2 {
+      font-size: 26px;
+    text-shadow: 0px 0px 4px 3px rgba(0,0,0,.4);
+  color: #fff;
+  transition: 300ms linear;
+}
+.snowflake3 {
+      font-size: 23px;
+    text-shadow: 0px 0px 4px 3px rgba(0,0,0,.4);
+  color: #fff;
 }
 
-
+.snowflake1:hover, .snowflake2:hover, .snowflake3:hover {
+  color: red;
+}
